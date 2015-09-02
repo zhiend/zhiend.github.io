@@ -947,6 +947,9 @@ body {
 .zhiend .zhiheader .header-nav li+li {
   margin-left: 20px;
 }
+.zhiend .zhimain {
+  padding-bottom: 30px;
+}
 .zhiend .zhimain .site-description {
   margin-top: 100px;
   margin-bottom: 0;
@@ -974,9 +977,6 @@ body {
 }
 .page .post-content a:hover {
   border-bottom-color: #fff;
-}
-.post-content {
-  padding: 30px 0;
 }
 .is_page .post-content {
   font-size: 16px;
@@ -1006,4 +1006,17 @@ body {
 }
 .post-items .post-item .post-item-inner .post-meta {
   margin-bottom: 5px;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+  .zhiend .zhimain .site-description {
+    font-size: 20px;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .is_page .post-content {
+    max-width: 100%;
+  }
 }
